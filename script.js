@@ -12,10 +12,11 @@ document.getElementById('csvFileInput').addEventListener('change', function(even
 });
 
 function parseCSV(csvData) {
+    const delimiter = csvData.includes(';') ? ';' : ',';
     const lines = csvData.split('\n');
-    const headers = lines[0].split(',');
+    const headers = lines[0].split(delimiter);
     const data = lines.slice(1).map(line => {
-        const values = line.split(',');
+        const values = line.split(delimiter);
         const obj = {};
         headers.forEach((header, index) => {
             obj[header] = values[index];
