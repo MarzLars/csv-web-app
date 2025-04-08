@@ -69,3 +69,10 @@ th {
 #csvTable th:nth-child(11) {
     width: 20%;
 }
+
+/* CSS class to make the text fit the boxes better */
+.fit-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

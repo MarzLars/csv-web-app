@@ -48,6 +48,7 @@ function populateTable(data) {
         headers.forEach(header => {
             const td = document.createElement('td');
             td.textContent = row[header];
+            td.classList.add('fit-text'); // Add CSS class to make the text fit the boxes better
             tr.appendChild(td);
         });
         tableBody.appendChild(tr);
