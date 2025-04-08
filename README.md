@@ -14,9 +14,12 @@ The CSV file should have a header row with column names, followed by rows of dat
 
 Example:
 ```
-Name,Age,Email
-John Doe,30,john.doe@example.com
-Jane Smith,25,jane.smith@example.com
+Id;Theme 1;Theme 2;Theme 3;DesignSpace Answer1;DesignSpace Answer2;Design Pattern1;Design Pattern2;Design Pattern3;Schematic Answer 1;Schematic Answer 2
+0;skibidi;crime;fanum tax;ohio;chuds;Avoid danger;Balance resources;Domination;achieving max rizz;when they have max rizz
+1;the rizzler;skibidi;sus;The spacestation skeld;Beans finding imposter;Time limit;Kinetics/ Physics;Avoid danger;Avoid the imposter and complete physics related tasks;Complete all tasks without dying to the imposter
+2;Eat forleys;sus;chicago;Detroit;snoop dog;Balance resources;Avoid danger;Diplomacy;Feed baby gronk;They make food to feed baby gronk
+3;fanum tax;rizz;A toop;Kaisanatt haus;ishowspeedlootgoblino;Suits;Domination;Diplomacy;trade and achieve status;it is difficult to be the best
+4;steelie wheelie automobiley;obama;fanum tax;ohio;beans;Race;Speculation;Avoid danger;max speed;showing the potential of the speed
 ```
 
 ## Deployment
