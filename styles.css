@@ -45,3 +45,27 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+/* Additional styling for specific structure of the example CSV */
+#csvTable th:nth-child(1) {
+    width: 5%;
+}
+
+#csvTable th:nth-child(2),
+#csvTable th:nth-child(3),
+#csvTable th:nth-child(4) {
+    width: 10%;
+}
+
+#csvTable th:nth-child(5),
+#csvTable th:nth-child(6),
+#csvTable th:nth-child(7),
+#csvTable th:nth-child(8),
+#csvTable th:nth-child(9) {
+    width: 15%;
+}
+
+#csvTable th:nth-child(10),
+#csvTable th:nth-child(11) {
+    width: 20%;
+}
